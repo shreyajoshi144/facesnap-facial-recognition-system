@@ -16,7 +16,8 @@ FaceSnap is a real-time face recognition application built with Python and OpenC
 
 ---
 
-![img.png](img.png)
+<img width="1536" height="1024" alt="facesnap" src="https://github.com/user-attachments/assets/51fd2918-f2d0-432e-9950-da76c76fcfd4" />
+
 
 ## Project Structure
 
@@ -74,8 +75,8 @@ Each detection event is stored in the history directory, allowing previous recog
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/FaceSnap.git
-cd FaceSnap
+git clone https://github.com/shreyajoshi144/facesnap-facial-recognition-system.git
+cd facesnap-facial-recognition-system
 ```
 
 ### Install Dependencies
