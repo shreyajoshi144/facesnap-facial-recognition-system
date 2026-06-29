@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────
+# FaceSnap – Streamlit Edition  |  requirements.txt
+# Optimized for CPU-only Streamlit Community Cloud deployment.
+# ─────────────────────────────────────────────────────────────
+
+# FaceSnap – requirements.txt
+# Clean, no duplicates, compatible with Python 3.11/3.12 on CPU-only machines.
+
+# ── Core UI ──────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+streamlit-webrtc>=0.47.0
+aiortc>=1.9.0
+
+# ── Computer Vision ───────────────────────────────────────────────────────────
+# headless = no GUI window (required on servers / Streamlit Cloud)
+# contrib  = includes LBPHFaceRecognizer
+opencv-contrib-python-headless>=4.9.0.80
+
+# ── Liveness Detection ────────────────────────────────────────────────────────
+# NOTE: mediapipe does NOT support Python 3.13 yet.
+# Use Python 3.11 or 3.12 for liveness to work.
+mediapipe>=0.10.14
+
+# ── Age / Gender + ArcFace Embeddings ────────────────────────────────────────
+deepface>=0.0.93
+tensorflow-cpu>=2.13.0,<2.17.0
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+pandas>=2.1.0
+numpy>=1.26.0,<2.0.0
+
+# ── Image ─────────────────────────────────────────────────────────────────────
+Pillow>=10.0.0

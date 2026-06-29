@@ -1,0 +1,12 @@
+[theme]
+# ── Background & surfaces ─────────────────────────────
+primaryColor        = "#A78BFA"   # soft violet — buttons, sliders, active widgets
+backgroundColor     = "#FAF8FF"   # near-white with a lavender tint — main canvas
+secondaryBackgroundColor = "#EDE9FE"  # muted lavender — sidebar + card backgrounds
+
+# ── Text ──────────────────────────────────────────────
+textColor           = "#1E1B4B"   # deep indigo — primary readable text
+# (Streamlit derives widget label color from textColor automatically)
+
+# ── Font ──────────────────────────────────────────────
+font                = "sans serif"
